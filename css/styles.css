@@ -598,24 +598,28 @@ display: inline-block;
 }
 
 .subs-button{
-    display: block;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     padding: 8px 24px;
     border-radius: 4px;
     border:none;
     background-color: var(--sixth-color);
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     letter-spacing: 0.04em;
-    gap: 16px;
     color: var(--fourth-color);
     transition: background-color var(--transition-duration-and-function);
+}
+
+.subs-icon {
+    margin-left: 16px;
 }
 
 .subs-button:hover,
@@ -627,8 +631,10 @@ display: inline-block;
     flex-direction: row;
 }
 
-.footer-mail{
+.footer-label {
     margin-right: 24px;
+}
+.footer-mail{
     width: 264px;
     height: 40px;
     padding: 8px 16px;
@@ -639,8 +645,8 @@ display: inline-block;
     color: var(--fourth-color);
     font-family: 'Roboto';
     font-size: 12px;
-    line-height: 2;
     letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 
 .footer-mail::placeholder{
@@ -708,7 +714,7 @@ fill: var(--fourth-color)
   pointer-events: none;
 }
 .contact-form{
-    padding: 72px 24px 0;
+padding:72px 24px 24px;
 } 
 
 .h-form {
@@ -841,7 +847,6 @@ fill: var(--fourth-color)
     color: var(--fourth-color);
     background-color: var(--sixth-color);
     border-radius: 4px;
-    margin-bottom: 24px;
     transition: background-color var(--transition-duration-and-function); 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
