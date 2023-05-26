@@ -828,15 +828,11 @@ fill: var(--fourth-color)
 }
 
 .contact-form-label-checkbox{
-    display: flex;
-    align-items: center;
-    gap:8px;
     font-family: 'Roboto';
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--eighth-color);
-    margin-bottom: 24px;
 }
 .visually-hidden {
     appearance: none;
