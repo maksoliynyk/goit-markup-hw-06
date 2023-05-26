@@ -776,6 +776,7 @@ fill: var(--fourth-color)
     background-color: transparent;
     padding-left: 38px;
     transition: border-color var(--transition-duration-and-function);
+    outline: transparent;
 }
 
 
@@ -784,12 +785,15 @@ fill: var(--fourth-color)
     width: 100%;
     height: 120px;
     padding: 8px 16px;
-    line-height: 1.4;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
     outline: transparent;
+    transition: border-color var(--transition-duration-and-function);
 } 
 
 .contact-form-data:focus{
