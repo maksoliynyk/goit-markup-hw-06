@@ -842,8 +842,8 @@ cursor: pointer;
 .contact-form-input-checkbox:checked + .contact-form-label-checkbox > .span-form{
     fill: var(--fourth-color);
     background-color: var(--fifth-color);
+    border: none;
    border-color: var(--fifth-color);
-    border:none;
 }
 
 .privacy-policy{
