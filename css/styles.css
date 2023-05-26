@@ -754,17 +754,26 @@ fill: var(--fourth-color)
 
 }
 
-.span-form-name{
-    display: block;
-}
 
-.span-form-data {
+
+.div-form-data {
     position: relative;
 }
 
 .contact-form-input-checkbox{
     display: block;
     margin: 16px;
+}
+
+.span-form {
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--first-color);
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
 }
 
 .contact-form-data{
@@ -829,31 +838,20 @@ fill: var(--fourth-color)
     color: var(--eighth-color);
     margin-bottom: 24px;
 }
-.contact-form-input-checkbox {
+.visually-hidden {
     appearance: none;
    position: absolute;
 }
 
 .svg-checkbox{
-    width: 16px;
-    height: 16px;
-    padding: 3px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 3px;
+cursor: pointer;
 }
 
-.checkbox-icon {
-    opacity: 0;
-}
-
-.contact-form-input-checkbox:checked+.svg-checkbox {
+.contact-form-input-checkbox:checked + .contact-form-label-checkbox > .span-form{
+    fill: var(--fourth-color);
     background-color: var(--fifth-color);
-}
-
-.contact-form-input-checkbox:checked+.svg-checkbox .checkbox-icon {
-    opacity: 1;
+    border-color: var(--fifth-color);
+    border:none;
 }
 
 .privacy-policy{
