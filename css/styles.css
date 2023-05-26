@@ -770,8 +770,11 @@ fill: var(--fourth-color)
     height: 120px;
     padding: 8px 16px;
     line-height: 1.4;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
 } 
 
 .contact-form-data:focus{
