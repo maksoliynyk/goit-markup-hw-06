@@ -664,6 +664,7 @@ display: inline-block;
     left: 0;
     background: rgba(46, 47, 66, 0.4);
     transition: opacity var(--transition-duration-and-function), visibility var(--transition-duration-and-function);
+    padding: 72px 24px 24px;
 
 }
 
@@ -691,6 +692,10 @@ fill: var(--fourth-color)
     transition: fill var(--transition-duration-and-function)
 }
 
+.contact-form{
+    padding: 72px 24px 24px;
+}
+
 .modal-button {
     display: flex;
     justify-content: center;
@@ -713,9 +718,7 @@ fill: var(--fourth-color)
   visibility: hidden;
   pointer-events: none;
 }
-.contact-form{
-padding:72px 24px 24px;
-} 
+
 
 .h-form {
     display: block;
