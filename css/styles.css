@@ -729,19 +729,24 @@ fill: var(--fourth-color)
         margin-left:auto;
         margin-right: auto;
         margin-bottom: 16px;
+        color: var(--first-color);
+}
+
+.contact-form{
+    margin-bottom: 8px;
 }
 .contact-form-field{
     display: block;
-    margin-bottom: 26px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--eighth-color);
+
 }
 
 .span-form-name{
     display: block;
-    font-family: 'Roboto';
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    margin-bottom: 4px;
 }
 
 .span-form-data {
